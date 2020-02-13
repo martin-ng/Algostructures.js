@@ -12,3 +12,6 @@ This repository is built for data structure and algorithms practice. The files l
 <h3>Permutations and Subsets</h3>
 * Permutations
 * Subsets
+
+<h3>Stacks</h3>
+* Min Max Stacks

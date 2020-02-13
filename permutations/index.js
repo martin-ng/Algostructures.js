@@ -2,8 +2,7 @@ const permutations = function(arr) {
   let res = [];
 
   permutate(arr);
-  //   return res;
-  console.log(res);
+
   function permutate(arr, m = []) {
     if (arr.length === 0) {
       res.push(m);
