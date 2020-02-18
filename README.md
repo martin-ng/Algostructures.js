@@ -15,3 +15,9 @@ This repository is built for data structure and algorithms practice. The files l
 
 <h3>Stacks</h3>
 1. Min/Max Stacks
+
+<h3>Queues</h3>
+1. Priority Queue
+
+<h3>Heaps</h3>
+1. MinHeaps
