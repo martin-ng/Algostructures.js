@@ -6,11 +6,11 @@ This repository is built for data structure and algorithms practice. The files l
 <h3>Current Data Structure and Algorithms</h3>
 
 <h3>Sorting</h3>
-1. Quicksort
+1. Quicksort <br />
 2. Mergesort
 
 <h3>Permutations and Subsets</h3>
-1. Permutations
+1. Permutations <br />
 2. Subsets
 
 <h3>Stacks</h3>
@@ -21,3 +21,6 @@ This repository is built for data structure and algorithms practice. The files l
 
 <h3>Heaps</h3>
 1. MinHeaps
+
+<h3>Algorithms</h3>
+1. Quickselect <br />
