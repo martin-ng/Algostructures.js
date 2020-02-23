@@ -1,20 +1,22 @@
 const permutations = function(arr) {
   let res = [];
+  permutate(arr, res);
+  return res;
 
-  permutate(arr);
-
-  function permutate(arr, m = []) {
-    if (arr.length === 0) {
-      res.push(m);
+  function permutate(arr, res, temp = []) {
+    if (temp.length === arr.length) {
+      res.push(temp.slice());
     } else {
       for (let i = 0; i < arr.length; i++) {
-        let curr = arr.slice();
-        let next = curr.splice(i, 1);
-        permutate(curr.slice(), m.concat(next));
+        if (temp.includes(arr[i])) continue;
+        temp.push(arr[i]);
+        permutate(arr, res, temp);
+        temp.pop();
       }
     }
   }
 };
 
-// permutations(["1", "2", "3"]);
-permutations(["m", "a", "r", "t", "i", "n"]);
+// console.log(permutations(["1", "2", "3"]));
+console.log(permutations([1, 2, 3, 4]));
+// console.log(permutations(["m", "a", "r", "t", "i", "n"]));
